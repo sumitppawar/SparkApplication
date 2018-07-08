@@ -2,6 +2,7 @@ package learn.apache.spark
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
+import org.apache.spark.ml.feature.HashingTF
 
 object DriverProgram {
   def main(args: Array[String]): Unit = {
