@@ -1,6 +1,5 @@
-package learn.apache.spark
+package learn.apache.spark.learn.apache.spark.mllib
 
-import learn.apache.spark.DriverProgram.createSparkConf
 import org.apache.spark.{SparkConf, SparkContext}
 
 object Util {

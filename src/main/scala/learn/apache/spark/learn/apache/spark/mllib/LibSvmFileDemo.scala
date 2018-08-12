@@ -1,9 +1,10 @@
-package learn.apache.spark
+package learn.apache.spark.learn.apache.spark.mllib
 
-import org.apache.spark.mllib.util.MLUtils
-import Util._
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.mllib.tree.DecisionTree
+import org.apache.spark.mllib.util.MLUtils
+import Util._
+
 
 object LibSvmFileDemo {
   def main(args: Array[String]): Unit = {

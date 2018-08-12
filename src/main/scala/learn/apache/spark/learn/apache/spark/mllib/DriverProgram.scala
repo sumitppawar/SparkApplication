@@ -1,9 +1,10 @@
-package learn.apache.spark
+package learn.apache.spark.learn.apache.spark.mllib
 
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.classification.LogisticRegressionWithLBFGS
 import org.apache.spark.mllib.feature.HashingTF
 import org.apache.spark.mllib.regression.LabeledPoint
+import org.apache.spark.{SparkConf, SparkContext}
+
 object DriverProgram {
   def main(args: Array[String]): Unit = {
 

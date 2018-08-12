@@ -1,9 +1,9 @@
-package learn.apache.spark
+package learn.apache.spark.learn.apache.spark.mllib
 
-import Util._
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.DecisionTree
+import Util._
 
 object DecisionTreeDemo {
   def main(args: Array[String]): Unit = {
@@ -40,5 +40,3 @@ object DecisionTreeDemo {
   def toFeatureVector(features: Array[Double]): org.apache.spark.mllib.linalg.Vector =
     org.apache.spark.mllib.linalg.Vectors.dense(features)
 }
-
-
