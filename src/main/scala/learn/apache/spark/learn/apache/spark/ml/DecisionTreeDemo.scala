@@ -33,11 +33,12 @@ object DecisionTreeDemo {
         .setImpurity("gini")
     val model = dtree.fit(indexedData)
 
-    val evaluator = new MulticlassClassificationEvaluator()
-        .setLabelCol("indexedLabel")
-        .setPredictionCol("prediction")
-        .setMetricName("f1")
     val transformedData = model.transform(testData)
+
+    val evaluator = new MulticlassClassificationEvaluator()
+      .setLabelCol("indexedLabel")
+      .setPredictionCol("prediction")
+      .setMetricName("f1")
 
     println(s"accuracy: ${evaluator.evaluate(transformedData)}")
 
@@ -48,8 +49,5 @@ object DecisionTreeDemo {
       val seq = row.toSeq.map(_.asInstanceOf[String].toDouble)
       (seq(0), Vectors.dense(seq.tail.toArray))
     }.toDF("label","features")
-
-
-
 
 }
