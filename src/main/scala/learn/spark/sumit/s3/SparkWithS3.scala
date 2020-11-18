@@ -11,8 +11,8 @@ object SparkWithS3 {
       .appName("Spark with S3")
       .getOrCreate()
 
-    spark.sparkContext.hadoopConfiguration.set("fs.s3a.access.key", "AKIATMLDM7P4HIY6BKKQ")
-    spark.sparkContext.hadoopConfiguration.set("fs.s3a.secret.key", "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")
+    spark.sparkContext.hadoopConfiguration.set("fs.s3a.access.key", "dktiherkgherwigh")
+    spark.sparkContext.hadoopConfiguration.set("fs.s3a.secret.key", "kjgefjwegg")
 
     val df = spark
       .read

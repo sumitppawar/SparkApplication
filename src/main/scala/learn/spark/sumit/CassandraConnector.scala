@@ -18,6 +18,7 @@ object CassandraConnector {
       .withColumn("age", col("age").cast("int"))
       .as[Users]
 
+
 /*
     users.write.mode(SaveMode.Append)
       .cassandraFormat("person", "users")
