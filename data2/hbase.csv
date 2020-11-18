@@ -1,0 +1,16 @@
+COLUMN, DATA_TYPE
+typology_code,String 
+typology_name,STRING
+description,STRING
+created_date, TIMESTAMP
+generated_by,STRING
+typology_method,STRING
+red_flags,STRING
+countries,STRING
+products,STRING
+json,STRING
+is_deleted,BOOLEAN
+delete_time, TIMESTAMP
+is_approved_for_training,BOOLEAN
+is_approved_for_predication,BOOLEAN
+KAPIL, PAWAR

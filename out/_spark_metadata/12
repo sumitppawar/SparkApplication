@@ -1,0 +1,3 @@
+v1
+{"path":"file:///Users/pawarsumit/workspace/SparkApplication/out/part-00000-f6edf986-1a6e-4e44-aef9-bc260134dfe9-c000.csv","size":252,"isDir":false,"modificationTime":1603007976000,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///Users/pawarsumit/workspace/SparkApplication/out/part-00001-80c75882-fda7-435a-8c52-540d2d60f90a-c000.csv","size":168,"isDir":false,"modificationTime":1603007976000,"blockReplication":1,"blockSize":33554432,"action":"add"}
